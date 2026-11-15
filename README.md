@@ -14,15 +14,15 @@ This project is a complete, reproducible data workflow in a single Jupyter Noteb
 | `winequality-red.csv`, `winequality-white.csv` | Raw dataset files (unchanged from UCI) |
 | `figures/` | The four figures, saved by the notebook |
 | `requirements.txt` | Exact package versions used |
-| `module_summary.pdf` | Written report with citations |
+| `module_summary.pdf` | Written report with citations (`module_summary.docx` is its editable source) |
 
 ## How to Run the Project
 
-Requires Python 3.11 or newer (tested with Python 3.13) and Git.
+Requires Python 3.12 or newer (tested with Python 3.13) and Git. The pinned NumPy version in `requirements.txt` does not install on older Python versions; on Python 3.9–3.11, install the core libraries instead with `pip install numpy pandas matplotlib seaborn notebook`. The notebook uses only standard features of these libraries.
 
 1. **Clone the repository** and open the project folder:
    ```bash
-   git clone https://github.com/alexander-kuzmin-us/ai-programming-foundations-projectgit
+   git clone https://github.com/alexander-kuzmin-us/ai-programming-foundations-project.git
    cd ai-programming-foundations-project
    ```
 2. **Create and activate a virtual environment** (recommended):
