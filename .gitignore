@@ -69,6 +69,6 @@ $RECYCLE.BIN/
 *.swp
 
 # ---------------------------------------------
-# Note: the dataset CSVs (data/winequality-*.csv) are NOT ignored on purpose,
+# Note: the dataset CSVs (winequality-*.csv) are NOT ignored on purpose,
 # so anyone who clones the repo can run data_workflow.ipynb right away.
 # ---------------------------------------------
